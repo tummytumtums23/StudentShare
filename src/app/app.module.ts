@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
+import { StudentloginComponent } from './studentlogin/studentlogin.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { HomeComponent } from './home/home.component';
     TeacherComponent,
     StudentComponent,
     HeaderComponent,
-    HomeComponent
+    HomeComponent,
+    StudentloginComponent
   ],
   imports: [
     BrowserModule,
